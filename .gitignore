@@ -1,0 +1,7 @@
+NTPTools/obj/
+Vch.Core/obj/
+VchAPI/obj/
+NTPTools/bin/
+Vch.Core/bin/
+VchAPI/bin/
+*.vs
