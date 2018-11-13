@@ -30,7 +30,7 @@ namespace Vch.Core.Meta
             byte[] result = new byte[8];
             timeBits.Xor(rndBites).CopyTo(result, 0);
 
-            return BitConverter.ToUInt64(result);
+            return BitConverter.ToUInt64(result) + 1; // QA approved
         }
 
         private byte[] GetNextSecureRandomBytes()
